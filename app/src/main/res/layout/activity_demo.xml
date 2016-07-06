@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_demo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fylder.permissions.demo.DemoActivity">
+
+    <Button
+        android:id="@+id/demo_storage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="@string/storage"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/activity_demo"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_demo"
+        app:layout_constraintRight_toRightOf="@+id/activity_demo"
+        app:layout_constraintTop_toTopOf="@+id/activity_demo"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <Button
+        android:id="@+id/demo_camera"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="@string/camera"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/activity_demo"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_demo"
+        app:layout_constraintRight_toRightOf="@+id/activity_demo"
+        app:layout_constraintTop_toTopOf="@+id/activity_demo"
+        app:layout_constraintVertical_bias="0.18" />
+
+</android.support.constraint.ConstraintLayout>
